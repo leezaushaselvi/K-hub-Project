@@ -1,0 +1,32 @@
+/* App.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up Roboto as the default font family */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Adding margin-top to the entire app */
+.App {
+  margin-top: 20px;
+}
+
+/* Centering content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Responsive utility classes */
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+}
